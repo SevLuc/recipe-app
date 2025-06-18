@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Bolognese",
+    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=400&q=80",
+    "ingredients": [
+      "200 g spaghetti",
+      "100 g minced beef",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "400 g canned tomatoes",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "In a pan, sauté onion and garlic until translucent.",
+      "Add minced beef and cook until browned.",
+      "Pour in tomatoes, season with salt and pepper, and simmer for 15 minutes.",
+      "Serve sauce over spaghetti."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Caprese Salad",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=400&q=80",
+    "ingredients": [
+      "2 tomatoes, sliced",
+      "125 g fresh mozzarella, sliced",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Arrange tomato and mozzarella slices alternately on a plate with basil leaves.",
+      "Drizzle with olive oil.",
+      "Season with salt and pepper to taste."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Fluffy Pancakes",
+    "image": "https://images.unsplash.com/photo-1587732601700-221b7557a7da?auto=format&fit=crop&w=400&q=80",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "1 tbsp sugar",
+      "1 tsp baking powder",
+      "1 cup milk",
+      "1 egg",
+      "2 tbsp melted butter (plus more for cooking)",
+      "Pinch of salt"
+    ],
+    "instructions": [
+      "Whisk together flour, sugar, baking powder, and salt in a bowl.",
+      "In another bowl, whisk milk, egg, and melted butter.",
+      "Pour wet ingredients into dry and stir until just combined (batter may be lumpy).",
+      "Heat a lightly buttered skillet over medium heat. Pour ¼ cup batter for each pancake.",
+      "Cook until bubbles form on the surface, flip, and cook until golden brown."
+    ]
+  }
+]

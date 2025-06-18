@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recipe App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind via CDN for quick styling -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div id="root"></div>
+
+    <!-- React, ReactDOM and React Router via ESM to ensure single instance -->
+    <script type="module">
+      import React from "https://esm.sh/react@18";
+      import ReactDOM from "https://esm.sh/react-dom@18";
+      import * as ReactRouterDOM from "https://esm.sh/react-router-dom@6?deps=react@18,react-dom@18";
+      window.React = React;
+      window.ReactDOM = ReactDOM;
+      window.ReactRouterDOM = ReactRouterDOM;
+    </script>
+
+    <!-- Babel for in-browser JSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- App code -->
+    <script type="text/babel" src="/static/app.js"></script>
+  </body>
+</html>
